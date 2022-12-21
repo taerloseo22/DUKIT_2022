@@ -48,7 +48,7 @@ form{
     font-family: Pretendard !important;
     font-size: 20px;
     font-weight: 600;
-    color: #FF9E1A;
+    color: #B70050;
     background-color: black;
 }
 
@@ -157,7 +157,7 @@ form{
 .gitbtn{
     border-radius: 5px;
     margin-left: 5px;
-    background-color: #FF9E1A;
+    background-color: #B70050;
     font-weight: 700;
     border: none;
 }
