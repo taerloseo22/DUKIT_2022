@@ -17,7 +17,8 @@
       <div class="userout">
         <div class="userprofilebox">
           <div class="firstsection">
-            <img src="{{ img }}" class="profileimg"/>
+            <!-- <img src="{{ img }}" class="profileimg"/> -->
+            <!-- if user.is_authenticated로 인해 유저가 회원가입과 로그인을 했으면 뜨는부분인데 회원가입한 유저가 깃이 연결이 되어있지 않으므로 git 아바타에서 오류가 발생하여 img 주석처리함 -->
             <div class="subsection">
               <div class="UserName">
               {{ user.nickname }}

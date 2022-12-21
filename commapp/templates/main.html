@@ -45,7 +45,7 @@
         <div class="now">현재 진행중인 이벤트</div>
         <a href="{% url 'commit_rank' %}">
           <div class="link">
-            <img class="representativeImg" src={% static './img/commit.png' %}/>
+            <!-- <img class="representativeImg" src={% static './img/commit.png' %}/> -->
             <div class="representativeTitle1">
               <div class="commit">1일 1커밋 대항전!</div>
               <div class="commit_detail">누가누가 개발을 열심히 하고있을까요?</div>
@@ -56,16 +56,16 @@
       <div class="LinkComponent2">
         {% if user.is_authenticated %}
           <div class="username1">{{ user.nickname }}님.</div>
-          <div class="username2">많은 사자들의 작품 보고 가세요!</div>
+          <div class="username2">덕우들의 작품 보고 가세요!</div>
         {% else %}
-          <div class="username2">멋쟁이 사자들의 작품 보고 가세요!</div>
+          <div class="username2"> 덕우들의 작품 보고 가세요!</div>
         {% endif %}
         <a href="{% url 'board' %}">
           <div class="link">
-            <img class="representativeImg" src={% static './img/collection.png' %}/>
+            <!-- <img class="representativeImg" src={% static './img/collection.png' %}/> -->
             <div class="representativeTitle1">
-              <div class="commit">멋대 아기사자들의 작품방</div>
-              <div class="commit_detail">다양한 주제로 의견을 나누는 멋대만의 커뮤니티</div>
+              <div class="commit">덕우 들의 작품방</div>
+              <div class="commit_detail">다양한 주제로 의견을 나누는 덕우만의 커뮤니티</div>
             </div>
           </div>
         </a>
